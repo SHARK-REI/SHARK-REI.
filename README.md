@@ -1,6 +1,6 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/kav"))()
-local Window = Library.CreateLib("TITLE", "DarkTheme")
-local Tab = Window:NewTab("TabName")
+local Window = Library.CreateLib("SHARKI-REI.HUB", "DarkTheme")
+local Tab = Window:NewTab("SHARK-REI.HUB")
 local Section = Tab:NewSection("Section Name")
 Section:NewButton("ButtonText", "ButtonInfo", function()
     print("Clicked")
@@ -84,18 +84,18 @@ Fluent:Notify({ Title = "executado!", Content = "executando com sucesso" })
 
 
 local Window = Fluent:CreateWindow({
-    Title = "snapdragon script" .. Fluent.Version,
+    Title = "SHARKI-REI.HUB" .. Fluent.Version,
     TabWidth = 160, 
     Size = UDim2.fromOffset(580, 460), 
     Theme = "Dark"
 })
 
 local Tabs = {
-    Main = Window:AddTab({ Title = "scripts" }),
+    Main = Window:AddTab({ Title = "SHARK.P" }),
     Settings = Window:AddTab({ Title = "Settings", Icon = "settings" })
 }
 -- parágrafos 
-Tabs.Main:AddParagraph({ Title = "davi", Content = "scripts aqui" })
+Tabs.Main:AddParagraph({ Title = "SHARK", Content = "VERSÃO:1" })
 
 -- botões 
 Tabs.Main:AddButton({ Title = "infinite jump", Callback = function() 
@@ -167,4 +167,3 @@ With Auto Farm Level, you can level up your characters faster. This innovative f
 By automating the farming process, you can make significant progress in your game. This means you can enjoy and focus on what matters.
 
 Upgrade Your Gaming Experience with Auto Farm Level
-
